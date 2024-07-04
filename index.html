@@ -6,10 +6,17 @@
     <title>notícia!!!</title>
 </head>
 
-<body>
+<body id="pra">
     <style>
+        #ti{
+            font-size: 30px;
+        }
+        #it{
+            font-size: 25px;
+        }
         .oi{
-            color: white;
+            color: rgba(255, 255, 255, 0.973);
+            font-size: 20px;
         }
         header{
             display: flex;
@@ -34,7 +41,7 @@
 
 
     <div>
-        <h1 class="oi">Notícia de Última Hora</h1><h2 class="oi">28/06/2069</h2>
+        <h1 class="oi" id="ti">Notícia de Última Hora</h1><h2 class="oi">28/06/2069</h2>
 
         <style>
             a {
@@ -45,27 +52,23 @@
             }
         </style>
         <img src="images.jpg" alt="maior bomba nuclear atualmente">
-            <h4 class="oi">Maior bomba atômica criada do mundo, ainda é desconhecido quem a criou, porém sabe-se que, quem a enviou, não gosta NADA de Russos.</h4>
-            <p class="oi">
+            <h4 class="oi" id="ti">Maior bomba atômica criada do mundo, ainda é desconhecido quem a criou, porém sabe-se que, quem a enviou, não gosta NADA de Russos.</h4>
+            <p class="oi" id="it">
                 Recentemente, foi totalmente EXPLODIDA a super potência mundial, Rússia, na qual era dona das maiores petroleiras do mundo.
                 </p>
             <p class="oi">
-                O que causou isso? Não se sabe ao certo quem, mas possivelmente uma outra super potência invejosa, que USA de forma inconsciente seu poder, até porque afetou a região da Europa inteira com seu tamanho e sua radioatividade.
+                O que causou isso? Não se sabe ao certo quem, mas possivelmente uma outra super potência invejosa, que USA de forma inconsciente seu poder, até porque afetou parte da Europa e da Ásia com sua explosão e sua radioatividade de tão potente.
             </p> 
             <p class="oi">Em 15 de abril de 2023, uma bomba nuclear sem precedentes devastou a Rússia, causando uma destruição maciça em um raio de centenas de quilômetros. Milhões morreram instantaneamente, e a radioatividade espalhou-se pela Ásia e Europa, contaminando vastas áreas. 
                 Ecossistemas foram devastados, invernos nucleares prolongados afetaram o clima global e a economia entrou em colapso. Esforços de socorro lutam contra os efeitos catastróficos, enquanto sobreviventes enfrentam um futuro incerto marcado pela radiação e pela necessidade de reconstrução.
             </p>
            
            <style>
-            .lindo{
-                text-decoration: none;
-                color: white;
-            }
             div {
                 text-align: center;
             }
-            * {
-                background-image: url(peo.jpg)
+            #pra {
+                background-image: url(peo.jpg);
             }
             form {
                 align-items: center;
@@ -99,7 +102,7 @@
 
         <center>
            
-            <p class="oi">Forms para dizer q é inútil essa informação:</p>
+            <p class="oi">Forms para dizer que é inútil essa informação:</p>
             <form action="/enviar-dados" method="post">
                 <label for="nome" class="oi">Nome:</label>
                 <input type="text" placeholder="digite seu nome">
@@ -130,9 +133,32 @@
                     <option value="RS">RS</option>
                 </select>
                 <br><br>
-                <button>
-                    <a class="lindo" href="VerificaçãoLogin.html" class="oi">Logar</a>
+                <button id="but">
+                    <a href="VerificacaoLogin.html" class="oi" id="po">Logar</a>
                 </button>
+                <style>
+                    table{
+                        border-radius: 15px;
+                        border-color: rgb(54, 54, 54);
+                    }
+                    th{
+                        border-radius: 15px;
+                        border-color: rgb(54, 54, 54);
+                    }
+                    td{
+                        border-radius: 15px;
+                        border-color: rgb(54, 54, 54);
+                    }
+                    #po{
+                        color: rgb(0, 0, 0);
+                    }
+                    #but{
+                        width: 90px;
+                        height: 40px;
+                        border-radius: 20px;
+                        border: none;
+                    }
+                </style>
                 <a href="https://www.instagram.com/" target="_blank" title="compartilhe no insta" class="oi">compartilhe!</a>
             </form>
         </center>
